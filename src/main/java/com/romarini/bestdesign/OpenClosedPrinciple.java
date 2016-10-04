@@ -40,7 +40,8 @@ class CalculaMaior50 implements Calculador{
 	/**
 	 * Single Responsability - o S do SOLID 
 	 * Mantem a classe/método coeso com a lógica bem definida
-	 * CLOSED lógica coesa encapsulada no método - poucas alterações, pouco ou nenhuma condicional
+	 * CLOSED lógica coesa encapsulada no método que não sofrerá alterações frequentes 
+	 * e não terá excesso de condicionais
 	 */
 	public double calculaDesconto(double valor) {
 		return valor * 10 / 100;
@@ -52,7 +53,8 @@ class CalculaMaior100 implements Calculador{
 	/**
 	 * Single Responsability - o S do SOLID 
 	 * Mantem a classe/método coeso com a lógica bem definida
-	 * CLOSED lógica coesa encapsulada no método - poucas alterações, pouco ou nenhuma condicional
+	 * CLOSED lógica coesa encapsulada no método que não sofrerá alterações frequentes 
+	 * e não terá excesso de condicionais
 	 */
 	public double calculaDesconto(double valor) {
 		return valor * 20 / 100;
